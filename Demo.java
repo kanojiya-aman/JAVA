@@ -1,7 +1,10 @@
 import java.util.Scanner;
 public class Demo {
     public static void main(String[] args) {
-       System.out.println("args 1 is: "+ args[0]);
-       System.out.println("args 2 is: "+ args[1]);
+       Scanner sc = new Scanner(System.in);
+       int x = sc.nextInt();
+       x>>=1;
+       System.out.println(x);
 }
 }
+
